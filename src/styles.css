@@ -1,0 +1,64 @@
+html,
+body {
+  height: 100%;
+}
+.App {
+  font-family: sans-serif;
+
+  font-family: "Muli", serif;
+  height: 100%;
+}
+
+.drop-downmenu show {
+  transform: translate(376px, 40px) !important;
+}
+
+.icon-button {
+  border: none;
+  background: none;
+  outline: none;
+}
+
+.icon-button:focus {
+  outline: none;
+}
+
+/* SideBar */
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  height: 100vh;
+  /* max-height: 100% !important; */
+  z-index: 100;
+  box-shadow: inset -1px 0 0 rgba(0, 0, 0, 0.1);
+}
+#sidebar-wrapper {
+  height: 100%;
+  padding: 0 !important;
+  width: 100vw;
+}
+#sidebar-wrapper .sidebar-heading {
+  /* padding: 0.875rem 1.25rem; */
+  font-size: 1.2rem;
+}
+
+#page-content-wrapper {
+  min-width: 0;
+  width: 100%;
+}
+
+.col-2 {
+  padding: 0 !important;
+}
+
+.hover-link:hover {
+  transform: scale(1.1);
+}
+
+.hover-filter:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
